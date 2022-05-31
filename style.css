@@ -5,7 +5,6 @@ body
 
 #container
 {
-    width: 1000px;
     margin-left:auto ;
     margin-right: auto;
 
@@ -13,12 +12,19 @@ body
 
 #top
 {
-    background-color: rgb(19, 44, 9);
-    height: 60px;
+
+    height: 320px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(243, 226, 132);
-    font-size: 25px;
-    text-align: center;
+    color: rgb(250, 226, 7);
+    font-size: 50px;
+    text-align:center;
+    padding-top: 5px;
+    background: rgb(78, 97, 80) url("Img/top.png");
+    background-size: cover;
+    text-shadow:3px 3px rgb(0, 0, 0)
+
+
+
 }
 
 #nav
@@ -26,11 +32,13 @@ body
     float: left;
     width: 160px;
     min-height: 610px;
-    background-color:rgb(37, 56, 30);
+    background: rgb(78, 97, 80) url("Img/nav.jpg") ;
+    background-size: cover;
     padding: 5px;
     text-align: center;
-    color:rgb(243, 226, 132);
-    font-size: 20px;
+    color:rgb(250, 226, 7);
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
 
 
 
@@ -42,9 +50,14 @@ body
     height: 600px;
     padding: 10px;
     background-color: rgb(31, 73, 40);
-    color: rgb(243, 226, 132);
+    color: rgb(202, 182, 5);
     font-size: 30px;
-    text-align: left;
+
+    text-align: center;
+    background: rgb(24, 39, 23)
+    
+
+    
     
 
 
