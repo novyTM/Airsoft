@@ -1,6 +1,7 @@
 body 
 {
-    background-color: rgb(78, 97, 80);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
 }
 
 #container
@@ -14,7 +15,6 @@ body
 {
 
     height: 320px;
-    font-family: 'Oswald', sans-serif;
     color: rgb(248, 223, 0);
     letter-spacing: 5px;
     font-size: 50px;
@@ -38,11 +38,18 @@ body
     margin: 10px;
     background: url("Img/nav.jpg") ;
     background-size: cover;
-    color:rgb(250, 226, 7);
     text-shadow: 2px 2px rgb(0, 0, 0);
     opacity: 0.8;
 
 }
+
+.option a
+{
+    text-decoration: none;
+    color: white;
+
+}
+
 
 .option
 {
@@ -53,14 +60,21 @@ body
 
 }
 
+.option-active
+{
+    background: rgb(131, 112, 2);
+}
+
 .option:hover
 {
     cursor: pointer;
+    transition: background-color .3s ;
     background-color: rgb(63, 62, 62)
+
 
 }
 
-#content
+.content
 {
     height: 650px;
     padding: 10px;
@@ -85,4 +99,13 @@ body
     font-size: 25px;
 
 }
+
+@media (max-width: 600px)
+{
+
+
+
+
+}
+
 
