@@ -14,7 +14,7 @@ body
 #top
 {
 
-    height: 320px;
+    height: 300px;
     color: rgb(248, 223, 0);
     letter-spacing: 5px;
     font-size: 50px;
@@ -33,57 +33,43 @@ body
 {
     float: left;
     width: 180px;
-    min-height: 610px;
+    min-height: 630px; 
     padding:10px;
     margin: 10px;
     background: url("Img/nav.jpg") ;
     background-size: cover;
-    text-shadow: 2px 2px rgb(0, 0, 0);
     opacity: 0.8;
 
 }
 
-.option a
+.menu-tab
 {
-    text-decoration: none;
-    color: white;
-
-}
-
-
-.option
-{
-    font-size: 40px;
+    font-size: 35px;
     padding: 5px;
     text-align: center;
     border: 1px solid rgb(250, 226, 7)
 
 }
 
-.option-active
-{
-    background: rgb(131, 112, 2);
-}
-
-.option:hover
+.menu-tab:hover
 {
     cursor: pointer;
     transition: background-color .3s ;
-    background-color: rgb(63, 62, 62)
+    background-color: rgb(94, 94, 93)
 
 
 }
 
 .content
 {
-    height: 650px;
     padding: 10px;
+    height: 1000px;
     background-color: rgb(31, 73, 40);
     color: rgb(202, 182, 5);
     font-family: 'Oswald', sans-serif;
     text-shadow: 2px 2px rgb(2, 2, 2);
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     font-weight: 700;
     background: rgb(24, 39, 23)
 }
@@ -98,6 +84,11 @@ body
     padding: 25px;
     font-size: 25px;
 
+}
+
+.menu-tab-active
+{
+    background: rgb(177, 151, 5);
 }
 
 @media (max-width: 600px)
